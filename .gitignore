@@ -218,3 +218,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+data/*
+!data/.gitkeep
+*.csv
+*.zip
+*.pdf
+
+# Competition data — keep local, do not publish
+data/
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
